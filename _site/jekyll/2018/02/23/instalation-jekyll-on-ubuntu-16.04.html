@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	  
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title> Instalation Jekyll on Ubuntu 16.04 </title>
+
+	<meta name="description" content="I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github p...">
+
+
+<meta property="og:site_name" content="Instalation Jekyll on Ubuntu 16.04">
+<meta property="og:title" content="Instalation Jekyll on Ubuntu 16.04">
+<meta property="og:type" content="article">
+<meta property="og:description" content="I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
+the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:
+
+"/>
+
+
+
+<meta property="article:published_time" content="2018-02-23T18:18:23+07:00">
+<meta property="article:author" content="soniwijaya">
+
+
+<meta property="og:url" content="http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html" />
+
+<meta itemprop="keywords" content="jekyll" />
+
+
+
+
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="/css/transition-animations.css" type="text/css">
+	<link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="/css/main-green.css" type="text/css">
+	
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+	
+</head>
+	
+	  <body class="material-template">
+	
+		<div id="page" class="page">
+		  <!-- Header -->
+		  <header id="site_header" class="header mobile-menu-hide">
+			<div class="header-content">
+			  <div class="site-title-block mobile-hidden">
+				<div class="site-title"><a href="/">Soni <span>Wijaya</span></a></div>
+			  </div>
+	
+			  <!-- Navigation -->
+			  <div class="site-nav">
+				<!-- Main menu -->
+				<ul id="nav" class="site-main-menu">
+				  <li>
+					<a class="pt-trigger" href="/#home">Home</a>
+				  </li>
+				  <li>
+					<a class="pt-trigger" href="/#blog">Blog</a>
+				  </li>
+				</ul>
+				<!-- /Main menu -->
+			  </div>
+			  <!-- Navigation -->
+			</div>
+		  </header>
+		  <!-- /Header -->
+	
+		  <!-- Mobile Header -->
+		  <div class="mobile-header mobile-visible">
+			<div class="mobile-logo-container">
+			  <div class="mobile-site-title">Soni Wijaya</div>
+			</div>
+	
+			<a class="menu-toggle mobile-visible">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
+		  <!-- /Mobile Header -->
+
+	<!-- Main Content -->
+<div id="main" class="site-main">
+        <!-- Single Page Content -->
+        <div class="single-page-content">
+          <div class="content-area">
+            <div class="page-content">
+              <!-- Blog Entry Content -->
+              <div class="blog-post-main-image">
+                <img class="post-image img-responsive" src="/images/blog/jekyll-logo.png" alt="Instalation Jekyll on Ubuntu 16.04" width="932"/>
+              </div>
+
+              <div class="blog-post-content">
+                <h1>Instalation Jekyll on Ubuntu 16.04</h1>
+
+                <div class="entry-meta">
+                  <span class="date"><a href="#"><i class="fa fa-fw fa-clock-o"></i> 23 February 2018</a></span>
+                  <span class="divider">|</span>
+                  <span class="autor"><a href="#"><i class="fa fa-fw fa-user"></i> Soni Wijaya</a></span>
+                </div>
+
+				<p>I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
+the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:</p>
+
+<p><strong>Instalation Ruby, RubyGems, Jekyll, Check Version</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install ruby-full
+$ ruby -v
+$ gem install rubygems
+$ gem -v
+$ gem install jekyll
+$ jekyll --version
+</code></pre></div></div>
+
+<p>Move to directory for instalation Jekyll:
+For example: <code class="highlighter-rouge">cd Document\home\</code></p>
+
+<p><strong>Built Directory Jekyll</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll new &lt; name directory &gt;
+</code></pre></div></div>
+
+<p><strong>Move to Directory</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd &lt; name directory &gt; 
+</code></pre></div></div>
+
+<p><strong>Run Server with Jekyll</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ jekyll serve
+</code></pre></div></div>
+
+<p><strong>Open the first Jekyll in Browser</strong></p>
+
+<p>For open Jekyll index.html, just typing this in URL “http://localhost:4000”.</p>
+
+
+              </div>
+              <!-- End of Blog Entry Content -->
+            </div>
+          </div>
+        </div>
+        <!-- End of Single Page Content -->
+      </div>
+      <!-- /Main Content -->
+    </div>	
+
+	<footer>
+		<div class="copyrights">© 2018 Soni Wijaya All rights reserved.</div>
+	</footer>
+  
+	  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	  <script type="text/javascript" src="/js/pages-switcher.js"></script>
+	  <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+	  <script type="text/javascript" src="/js/validator.js"></script>
+	  <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	  <script type="text/javascript" src="/js/main.js"></script>
+  
+	</body>
+</html>

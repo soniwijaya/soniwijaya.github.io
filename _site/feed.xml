@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T19:57:52+07:00</updated><id>http://localhost:4000/</id><title type="html">Soni Wijaya</title><entry><title type="html">Akhir phase 0 dan memasuki phase 1 hacktiv8</title><link href="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="Akhir phase 0 dan memasuki phase 1 hacktiv8" /><published>2018-04-01T02:45:00+07:00</published><updated>2018-04-01T02:45:00+07:00</updated><id>http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8</id><content type="html" xml:base="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html">&lt;p&gt;Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tipe Data dan Variabel&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;String
+Number
+Boolean
+Array
+Object Literal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.</summary></entry><entry><title type="html">Instalation Jekyll on Ubuntu 16.04</title><link href="http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html" rel="alternate" type="text/html" title="Instalation Jekyll on Ubuntu 16.04" /><published>2018-02-23T18:18:23+07:00</published><updated>2018-02-23T18:18:23+07:00</updated><id>http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html">&lt;p&gt;I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
+the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instalation Ruby, RubyGems, Jekyll, Check Version&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install ruby-full
+$ ruby -v
+$ gem install rubygems
+$ gem -v
+$ gem install jekyll
+$ jekyll --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Move to directory for instalation Jekyll:
+For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd Document\home\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Built Directory Jekyll&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jekyll new &amp;lt; name directory &amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Move to Directory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd &amp;lt; name directory &amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Run Server with Jekyll&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Open the first Jekyll in Browser&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For open Jekyll index.html, just typing this in URL “http://localhost:4000”.&lt;/p&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:</summary></entry></feed>

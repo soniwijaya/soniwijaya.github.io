@@ -1,0 +1,12 @@
+name: Soni Wijaya
+markdown: kramdown
+highlighter: rouge
+github: https://www.github.com/soniwijaya
+about:  Hi, I'm Soni. Web Developer with over 1 years of experience specializing in back end development. Experienced with all stages of the development cycle for dynamic web project. Having an in-middle knowledge including advanced HTML5, CSS, PHP, JavaScript, JQuery, JSON.
+urls:
+    - text: Twitter
+      url: https://twitter.com/soniwijaya
+    - text: Github
+      url: https://github.com/soniwijaya
+baseurl: ''
+future: true
