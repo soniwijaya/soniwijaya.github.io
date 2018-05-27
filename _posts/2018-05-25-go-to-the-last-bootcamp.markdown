@@ -13,12 +13,12 @@ Hi, guys.. akhirnya hari ini baru bisa menulis kembali. di sharing gue kali ini,
 begini nih tanda kalau gue lagi seneng, karena sudah berhasil memasuki phase ke 3. haha.. oke langsung aja!
 
 cerita ini dimulai setelah lulus dari phase 1 kemarin menuju phase 2. hari senin adalah kelas pertama dengan materi baru,suasana baru dan dimulai dengan perkenalan (tentang aturan penilaian dan skema alur pembelajarannya). pada phase 2 ini berlangsung proses pembelajaran selama sebulan penuh. tata penilaiannya pun berbeda dengan phase 1 kemarin yaitu penilaian terdiri dari enam tugas portofolio (gue sertain link hasil kerja gue deh. biar ga dikira boong haha)
-1. Semantic Web  [https://semantic.thismylife.net]()
-2. Todo Fancy [https://todofancy.thismylife.net]()
-3. E-Commerce [https://ecommerce.thismylife.net]()
-4. Kanban [https://kanban.thismylife.net]()
-5. Blog [https://blog.thismylife.net]()
-6. Hacktiv Overflow (seperti forum tanya jawab bgitu) [https://hacktivoverflow.thismylife.net]()
+1. Semantic Web  [https://semantic.thismylife.net](https://semantic.thismylife.net)
+2. Todo Fancy [https://todofancy.thismylife.net](https://todofancy.thismylife.net)
+3. E-Commerce [https://ecommerce.thismylife.net](https://ecommerce.thismylife.net)
+4. Kanban [https://kanban.thismylife.net](https://kanban.thismylife.net)
+5. Blog [https://blog.thismylife.net](https://blog.thismylife.net)
+6. Hacktiv Overflow (seperti forum tanya jawab bgitu) [https://hacktivoverflow.thismylife.net](https://hacktivoverflow.thismylife.net)
 
 yah berikut enam tugas tersebut. menurut gue tugas ini susah, yaps sangat susah. karena dalam jangka waktu yg singkat harus menyelesaikan ke enam tugas tersebut dan belum lagi ada live-coding yaitu semacam tes perminggunya, hehe...
 
