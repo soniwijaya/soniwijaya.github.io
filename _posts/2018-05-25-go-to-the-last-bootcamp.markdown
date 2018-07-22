@@ -13,6 +13,11 @@ Hi, guys.. akhirnya hari ini baru bisa menulis kembali. di sharing gue kali ini,
 begini nih tanda kalau gue lagi seneng, karena sudah berhasil memasuki phase ke 3. haha.. oke langsung aja!
 
 cerita ini dimulai setelah lulus dari phase 1 kemarin menuju phase 2. hari senin adalah kelas pertama dengan materi baru,suasana baru dan dimulai dengan perkenalan (tentang aturan penilaian dan skema alur pembelajarannya). pada phase 2 ini berlangsung proses pembelajaran selama sebulan penuh. tata penilaiannya pun berbeda dengan phase 1 kemarin yaitu penilaian terdiri dari enam tugas portofolio (gue sertain link hasil kerja gue deh. biar ga dikira boong haha)
+
+```
+kalau link dibawah ini sudah gak aktif lagi, itu karena gw uda diterima kerja.. haha
+karena untuk onlinenya butuh cost. hihi
+```
 1. Semantic Web  [https://semantic.thismylife.net](https://semantic.thismylife.net)
 2. Todo Fancy [https://todofancy.thismylife.net](https://todofancy.thismylife.net)
 3. E-Commerce [https://ecommerce.thismylife.net](https://ecommerce.thismylife.net)
