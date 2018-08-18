@@ -3,11 +3,14 @@ layout: post
 title:  "Instalation Jekyll on Ubuntu 16.04"
 date:   2018-02-23 11:18:23
 author: soniwijaya
-categories: jekyll
+categories: personal
 header-img: "images/blog/jekyll-logo.png"
 ---
 I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
 the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:
+
+<!-- adding image -->
+<!-- ![My helpful screenshot]({{ "/images/blog/jekyll-logo.png" | absolute_url }}) -->
 
 **Instalation Ruby, RubyGems, Jekyll, Check Version**
 

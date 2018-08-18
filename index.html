@@ -79,7 +79,7 @@ layout: default
             <section class="pt-page" data-id="blog">
               <div class="section-inner custom-page-content">
                 <div class="page-header color-1">
-                  <h2>Blog</h2>
+                  <h2>Personal</h2>
                 </div>
                 <div class="page-content">
 
@@ -87,7 +87,7 @@ layout: default
                   <div class="blog-masonry two-columns">
 
                     <!-- Blog Post 1 -->
-                    {% for post in site.posts %}
+                    {% for post in site.categories['personal'] %}
                     <div class="item">
                       <div class="blog-card">
                         <div class="media-block">
@@ -114,6 +114,46 @@ layout: default
               </div>
             </section>
             <!-- /Blog Subpage -->
+
+            <!-- React Subpage -->
+            <section class="pt-page" data-id="react">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>React</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- React Posts Grid -->
+                  <div class="blog-masonry two-columns">
+
+                    <!-- React Post 1 -->
+                    {% for react in site.categories['react'] %}
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="{{ site.baseurl }}{{ react.url }}">
+                            <img class="post-image img-responsive" src="{{ site.baseurl }}/{{ react.header-img }}" alt="{{ react.title }}"/>
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">{{ react.date | date: "%d" }}</span><span class="month">{{ react.date | date: "%b" }}</span><span class="year">{{ react.date | date: "%Y" }}</span></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a>{{ react.categories }}</a></li>
+                          </ul>
+                          <a href="{{ site.baseurl }}{{ react.url }}"><h4 class="blog-item-title">{{ react.title }}</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                    <!-- End of React Post 1 -->
+
+                  </div>
+                  <!-- React Posts Grid -->
+                </div>
+              </div>
+            </section>
+            <!-- /React Subpage -->
 
           </div>
         </div>

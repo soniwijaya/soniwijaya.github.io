@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	  
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title> Start React from Scratch - Fundamental React.js </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang Front-End Developer. React merupakan FrameWo...">
+
+
+<meta property="og:site_name" content="Start React from Scratch - Fundamental React.js">
+<meta property="og:title" content="Start React from Scratch - Fundamental React.js">
+<meta property="og:type" content="article">
+<meta property="og:description" content="Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang Front-End Developer. React merupakan FrameWork Terbaik Saat ini Menurut Saya.
+
+"/>
+
+
+
+<meta property="article:published_time" content="2018-08-17T17:32:00+07:00">
+<meta property="article:author" content="soniwijaya">
+
+
+<meta property="og:url" content="http://localhost:4000/react/2018/08/17/start-react-from-scratch.html" />
+
+<meta itemprop="keywords" content="react" />
+
+
+
+
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="/css/animate.css" type="text/css">
+	<link rel="stylesheet" href="/css/transition-animations.css" type="text/css">
+	<link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="/css/main-green.css" type="text/css">
+
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+	
+</head>
+	
+	  <body class="material-template">
+	
+		<div id="page" class="page">
+		  <!-- Header -->
+		  <header id="site_header" class="header mobile-menu-hide">
+			<div class="header-content">
+			  <div class="site-title-block mobile-hidden">
+				<div class="site-title"><a href="/">Soni <span>Wijaya</span></a></div>
+			  </div>
+	
+			  <!-- Navigation -->
+			  <div class="site-nav">
+				<!-- Main menu -->
+				<ul id="nav" class="site-main-menu">
+				  <li>
+					<a class="pt-trigger" href="/#home">Home</a>
+				  </li>
+				  <li>
+					<a class="pt-trigger" href="/#blog">Personal</a>
+					</li>
+					<li>
+						<a class="pt-trigger" href="/#react">React ( Javascript )</a>
+					</li>
+				</ul>
+				<!-- /Main menu -->
+			  </div>
+			  <!-- Navigation -->
+			</div>
+		  </header>
+		  <!-- /Header -->
+	
+		  <!-- Mobile Header -->
+		  <div class="mobile-header mobile-visible">
+			<div class="mobile-logo-container">
+			  <div class="mobile-site-title"><a href="/" style="color:#fff">Soni Wijaya</a></div>
+			</div>
+	
+			<a class="menu-toggle mobile-visible">
+			  <i class="fa fa-bars"></i>
+			</a>
+		  </div>
+		  <!-- /Mobile Header -->
+
+	<!-- Main Content -->
+<div id="main" class="site-main">
+        <!-- Single Page Content -->
+        <div class="single-page-content">
+          <div class="content-area">
+            <div class="page-content">
+              <!-- Blog Entry Content -->
+              <div class="blog-post-main-image">
+                <img class="post-image img-responsive" src="/images/blog/start-react-from-scratch/react.jpeg" alt="Start React from Scratch - Fundamental React.js" width="932"/>
+              </div>
+
+              <div class="blog-post-content">
+                <h1>Start React from Scratch - Fundamental React.js</h1>
+                <div class="entry-meta">
+                  <span class="date"><a href="#"><i class="fa fa-fw fa-clock-o"></i> 17 August 2018</a></span>
+                  <span class="divider">|</span>
+                  <span class="autor"><a href="#"><i class="fa fa-fw fa-user"></i> Soni Wijaya</a></span>
+                </div>
+
+				      <p>Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang <em>Front-End Developer</em>. <strong>React</strong> merupakan FrameWork Terbaik Saat ini Menurut Saya.</p>
+
+<p>Jika ingin memulai belajar FrameWork Terpopuler saat ini yaitu <strong>React</strong> maka <em>Javascript</em> adalah base code yang paling dasar dan wajib harus kamu ketahui. Dasar javascript yang seperti apa sih? hmm.. sebelum masuk ke <em>Javascript</em> adakah yang tau apa itu Ecmascript? <strong>Javascript === Ecmascript.</strong></p>
+
+<p>Di era teknologi saat ini, perkembangan teknologi itu sangat cepat berubah dari waktu ke waktu. maka dari itu kita yang harus segera untuk bisa beradaptasi. jadi seperti yang saya katakan tadi saat ini EcmaScript yg === <em>Javascript</em> sudah berada di Versi 8 (ES8). sepertinya sudah mulai ketinggalan kalau belajar ES6. kemudian apa saja perubahannya dari versi - versi tersebut?</p>
+
+<ul>
+  <li>dari Segi Syntax dan fitur - fiturnya</li>
+  <li>Mengenai Class, Object, Module, serta cara memanipulasinya</li>
+</ul>
+
+<p>Jika kita sudah mulai terbiasa dengan penulisan gaya syntax ES6. kita memerlukan beberapa tools yg cukup canggih untuk mengkonversi Versi ES6 untuk turun ke versi ES5. Kenapa kita perlu melakukan hal tersebut?</p>
+
+<p>Seupdate - updatenya teknologi pasti ada aja, yg perlu waktu untuk menyesuaikannya. Yah intinya beberapa browser belum kompatibel dengan gaya penulisan ES6. maka untuk menyeimbangkannya kita perlu</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Babel - is a *Javascript* compiler https://babeljs.io/
+Webpack - buddle your styles, assets, scripts. https://webpack.js.org/
+</code></pre></div></div>
+
+<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/babel.png" alt="Babel" /></p>
+
+<p>Sekilas mengenai pemahamannya. Untuk menjalankan Javascript ini, kita memerlukan yang namanya sebuah <strong>Enviroment</strong> agar Javascript ini bisa dijalankan <em>compiler</em>. Enviroment tersebut adalah <strong>Node.js</strong>. cara menginstalnya tidaklah susah saya mengunakan <strong>PACKAGE MANAGER</strong> dokumentasi lengkapnya ada disini - https://nodejs.org/en/download/package-manager/ kebetulan saya memilih memakai Node.js Versi 8 dengan base yg berjalan di <strong>OS Ubuntu 16.04 LTS</strong>.</p>
+
+<p>Pada saat sudah selesai menginstal Node.js. Biasanya perlu dipastikan apakah sudah terinstal dengan baik atau belum. bisa dijalankan pada terminal dengan menjalankan kode dibawah ini.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>node -v
+npm -v
+</code></pre></div></div>
+<p><strong>NPM itu apa? NPM itu - package manager for Javascript</strong> - https://www.npmjs.com/</p>
+
+<p>Sekarang adalah tahap yg paling ditunggu karena akan dimulai pembahasan tema ini <strong>React</strong>, <strong>INI BARU MULAI</strong>. Kemudian yang tadi itu apa? itu baru proses yang dijalankan dibalik <strong>React</strong>, dan sebenarnya masih ada lagi. Namun jika dijelaskan secara detail akan memerlukan waktu yang cukup panjang, jadi saya potong saja sampai disini. Oke sekarang kita buat folder atau <strong>directory (sebagai wadah untuk React)</strong>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir react-from-scratch
+cd react-from-scratch
+npm init
+</code></pre></div></div>
+
+<p>Dibawah ini adalah tampilan dari <strong>“npm init”</strong>. ditampilkan beberapa pertanyaan mengenai bundle atau asset yang perlu dibuat dalam sebuah directory. silakan diisi seperti dibawah ini. setelah selesai maka akan meng - generate suatu file bernama <strong>package.json</strong>.</p>
+
+<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/npminit.png" alt="NPM" /></p>
+
+<p>Kemudian buatlah sebuah file index.html sesuai standard <strong>W3C Candidate Recommendation: HTML 5.1</strong>, standard apa lagi ini? untuk lebih lengkapnya kunjungi saja link dibawah tersebut. Kegunaan file index.html nantinya untuk meng-render hasil component dari <strong>React</strong>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.w3.org/TR/2017/REC-html51-20171003/introduction.html#introduction 
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"X-UA-Compatible"</span> <span class="na">content=</span><span class="s">"ie-edge"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Simple React<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"app"</span><span class="nt">&gt;&lt;/div&gt;</span>
+
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"dist/app.bundle.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>Move to the next step, lanjutkan dengan menginstal <strong>WEBPACK</strong>. Untuk instalasinya kita perlu menggunakan NPM. Contohnya seperti di bawah nih.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i webpack webpack-cli webpack-dev-server
+</code></pre></div></div>
+
+<p>Tunggu 15 menit, itu kalau koneksinya kenceng (Cek WI-FE nya). Nah kalau sudah kita harus membuat konfigurasi webpack dengan nama file webpack.config.js. Tujuan file ini untuk menkonversi syntax ES6 yang ada di src/main.js ke dalam bentuk ES5 (Old Javascript).</p>
+
+<p>Untuk menjalakan webpack yg sudah kita buat barusan, buka package.json dan edit dibagian script seperti ini.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+},
+</code></pre></div></div>
+
+<p>isi dari webpack.config.js</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module.exports = {
+    entry: [
+        './src/main.js'
+    ],
+    output: {
+        path: __dirname + '/dist',
+        publicPath: '/dist',
+        filename: 'app.bundle.js'
+    },
+    devServer: {
+        inline: true,
+        port: 8080,
+        contentBase: './'
+    }
+}
+</code></pre></div></div>
+
+<p>Lanjut… kita coba dulu testing webpacknya.. dan liat keajaiban yg terjadi.. kita buat file dengan nama main.js. kita letakkan di folder src/main.js. dan isi console.log(“It Works Guys”).
+dan <strong>“npm start”</strong>.</p>
+
+<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/done.png" alt="Webpack Testing" /></p>
+
+<p>Kemudian coba ubah lagi kata-kata yg ada di console.log menjadi “Apa bisa berubah <em>Automatic</em>” ?. Ternyata belum bisa ya teman-teman, kalau begitu repot ya mesti dijalankan berkali-kali. Apa ada cara praktisnya? pasti ada!!. Makanya kita perlu <strong>menginstal babel, preset react, dan set-up babel loader di webpack config</strong></p>
+
+<p><strong>NOTE</strong> kegunaan babel loader untuk mereload file app.bundle.js yg kita buat tadi. supaya direload <em>automatic</em> gitu.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install babel-core babel-loader babel-preset-env
+npm install babel-preset-react babel-preset-stage-2
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>resolve: {
+        extensions: ['*', '.js', '.jsx']
+    },
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: ['babel-loader']
+            }
+        ]
+    }
+</code></pre></div></div>
+
+<p>Buat file .babelrc dan <strong>instal “npm install react react-dom”</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "presets": [
+        "env",
+        "react",
+        "stage-2"
+    ]
+}
+</code></pre></div></div>
+<p>Akhirnya sudah install <strong>React</strong> juga, saatnya kita mencoba untuk rendering dengan <strong>React</strong>, Buat <em>hello world</em> dulu, haha. Tinggal edit file main.js menjadi seperti ini.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import React from 'react' // ini penulisan gaya ES6
+import ReactDOM from 'react-dom' // ini ES6
+
+ReactDOM.render(
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    document.getElementById('app')
+)
+</code></pre></div></div>
+
+<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/wowreact.png" alt="Hello World" /></p>
+
+<p>Permainannya tidak usai sampai disana, sekarang kita mainkan dengan <em>component</em>, buat dulu <em>component</em>nya. Posisinya letakkan didirectory “/src/components” dengan nama file Hello.jsx.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import React from 'react'
+
+export default class Hello extends React.Component {
+    constructor (){
+        super()
+        this.state = {
+            react: "Welcome React"
+        }
+    }
+
+    render(){
+        return (
+            &lt;div&gt;
+                &lt;h1&gt;{ this.state.react }&lt;/h1&gt;
+                &lt;h2&gt;Mudahnya belajar kalau dari scratch&lt;/h2&gt;
+            &lt;/div&gt;
+        )
+    }
+}
+</code></pre></div></div>
+
+<p><strong>Dan jangan ketinggalan di main.js nya juga diubah ya!!</strong> karena rendernya dari <em>component Hello.jsx</em></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import Hello from './components/hello'
+
+ReactDOM.render(
+    &lt;Hello /&gt;,
+    document.getElementById('app')
+)
+</code></pre></div></div>
+
+<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/selesai.png" alt="JSX Component" /></p>
+
+<p>Oke sampai disini dulu tutorial Reactnya.. Semoga tutor ini dapat membantu anda memahami konsep fundamentalnya.</p>
+
+<p><strong>Kalau ingin bertanya silakan tinggalkan komentar dibawah yah..</strong></p>
+
+<p><strong>Jika kalian tertarik dengan pembelajaran React ini, dan ingin lebih Advanced, Tinggalkan Judul yg diingin dibahas</strong></p>
+
+<p><strong>“Stay Curiosity, Tetap belajar dan selalu BERKARYA”.</strong></p>
+
+
+
+              </div>
+              <!-- End of Blog Entry Content -->
+              <div id="disqus_thread"></div>
+              <script>
+
+              /**
+              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://soniwijaya.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+            </div>
+          </div>
+        </div>
+        <!-- End of Single Page Content -->
+      </div>
+      <!-- /Main Content -->
+    </div>	
+
+	<footer>
+		<div class="copyrights">© 2018 Soni Wijaya All rights reserved.</div>
+	</footer>
+  
+	  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	  <script type="text/javascript" src="/js/pages-switcher.js"></script>
+	  <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+	  <script type="text/javascript" src="/js/validator.js"></script>
+	  <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+	  <script type="text/javascript" src="/js/main.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124177439-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124177439-1');
+</script>
+
+	</body>
+</html>

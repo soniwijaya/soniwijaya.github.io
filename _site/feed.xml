@@ -1,4 +1,265 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T21:27:04+07:00</updated><id>http://localhost:4000/</id><title type="html">Soni Wijaya</title><entry><title type="html">Akhir phase 0 dan memasuki phase 1 hacktiv8</title><link href="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="Akhir phase 0 dan memasuki phase 1 hacktiv8" /><published>2018-04-01T02:45:00+07:00</published><updated>2018-04-01T02:45:00+07:00</updated><id>http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8</id><content type="html" xml:base="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html">&lt;p&gt;Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-18T14:39:14+07:00</updated><id>http://localhost:4000/</id><title type="html">Soni Wijaya</title><entry><title type="html">Start React from Scratch - Fundamental React.js</title><link href="http://localhost:4000/react/2018/08/17/start-react-from-scratch.html" rel="alternate" type="text/html" title="Start React from Scratch - Fundamental React.js" /><published>2018-08-17T17:32:00+07:00</published><updated>2018-08-17T17:32:00+07:00</updated><id>http://localhost:4000/react/2018/08/17/start-react-from-scratch</id><content type="html" xml:base="http://localhost:4000/react/2018/08/17/start-react-from-scratch.html">&lt;p&gt;Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang &lt;em&gt;Front-End Developer&lt;/em&gt;. &lt;strong&gt;React&lt;/strong&gt; merupakan FrameWork Terbaik Saat ini Menurut Saya.&lt;/p&gt;
+
+&lt;p&gt;Jika ingin memulai belajar FrameWork Terpopuler saat ini yaitu &lt;strong&gt;React&lt;/strong&gt; maka &lt;em&gt;Javascript&lt;/em&gt; adalah base code yang paling dasar dan wajib harus kamu ketahui. Dasar javascript yang seperti apa sih? hmm.. sebelum masuk ke &lt;em&gt;Javascript&lt;/em&gt; adakah yang tau apa itu Ecmascript? &lt;strong&gt;Javascript === Ecmascript.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Di era teknologi saat ini, perkembangan teknologi itu sangat cepat berubah dari waktu ke waktu. maka dari itu kita yang harus segera untuk bisa beradaptasi. jadi seperti yang saya katakan tadi saat ini EcmaScript yg === &lt;em&gt;Javascript&lt;/em&gt; sudah berada di Versi 8 (ES8). sepertinya sudah mulai ketinggalan kalau belajar ES6. kemudian apa saja perubahannya dari versi - versi tersebut?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dari Segi Syntax dan fitur - fiturnya&lt;/li&gt;
+  &lt;li&gt;Mengenai Class, Object, Module, serta cara memanipulasinya&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jika kita sudah mulai terbiasa dengan penulisan gaya syntax ES6. kita memerlukan beberapa tools yg cukup canggih untuk mengkonversi Versi ES6 untuk turun ke versi ES5. Kenapa kita perlu melakukan hal tersebut?&lt;/p&gt;
+
+&lt;p&gt;Seupdate - updatenya teknologi pasti ada aja, yg perlu waktu untuk menyesuaikannya. Yah intinya beberapa browser belum kompatibel dengan gaya penulisan ES6. maka untuk menyeimbangkannya kita perlu&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Babel - is a *Javascript* compiler https://babeljs.io/
+Webpack - buddle your styles, assets, scripts. https://webpack.js.org/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/start-react-from-scratch/babel.png&quot; alt=&quot;Babel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sekilas mengenai pemahamannya. Untuk menjalankan Javascript ini, kita memerlukan yang namanya sebuah &lt;strong&gt;Enviroment&lt;/strong&gt; agar Javascript ini bisa dijalankan &lt;em&gt;compiler&lt;/em&gt;. Enviroment tersebut adalah &lt;strong&gt;Node.js&lt;/strong&gt;. cara menginstalnya tidaklah susah saya mengunakan &lt;strong&gt;PACKAGE MANAGER&lt;/strong&gt; dokumentasi lengkapnya ada disini - https://nodejs.org/en/download/package-manager/ kebetulan saya memilih memakai Node.js Versi 8 dengan base yg berjalan di &lt;strong&gt;OS Ubuntu 16.04 LTS&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pada saat sudah selesai menginstal Node.js. Biasanya perlu dipastikan apakah sudah terinstal dengan baik atau belum. bisa dijalankan pada terminal dengan menjalankan kode dibawah ini.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;node -v
+npm -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;NPM itu apa? NPM itu - package manager for Javascript&lt;/strong&gt; - https://www.npmjs.com/&lt;/p&gt;
+
+&lt;p&gt;Sekarang adalah tahap yg paling ditunggu karena akan dimulai pembahasan tema ini &lt;strong&gt;React&lt;/strong&gt;, &lt;strong&gt;INI BARU MULAI&lt;/strong&gt;. Kemudian yang tadi itu apa? itu baru proses yang dijalankan dibalik &lt;strong&gt;React&lt;/strong&gt;, dan sebenarnya masih ada lagi. Namun jika dijelaskan secara detail akan memerlukan waktu yang cukup panjang, jadi saya potong saja sampai disini. Oke sekarang kita buat folder atau &lt;strong&gt;directory (sebagai wadah untuk React)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir react-from-scratch
+cd react-from-scratch
+npm init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dibawah ini adalah tampilan dari &lt;strong&gt;“npm init”&lt;/strong&gt;. ditampilkan beberapa pertanyaan mengenai bundle atau asset yang perlu dibuat dalam sebuah directory. silakan diisi seperti dibawah ini. setelah selesai maka akan meng - generate suatu file bernama &lt;strong&gt;package.json&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/start-react-from-scratch/npminit.png&quot; alt=&quot;NPM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian buatlah sebuah file index.html sesuai standard &lt;strong&gt;W3C Candidate Recommendation: HTML 5.1&lt;/strong&gt;, standard apa lagi ini? untuk lebih lengkapnya kunjungi saja link dibawah tersebut. Kegunaan file index.html nantinya untuk meng-render hasil component dari &lt;strong&gt;React&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.w3.org/TR/2017/REC-html51-20171003/introduction.html#introduction 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;http-equiv=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;X-UA-Compatible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ie-edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Simple React&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dist/app.bundle.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Move to the next step, lanjutkan dengan menginstal &lt;strong&gt;WEBPACK&lt;/strong&gt;. Untuk instalasinya kita perlu menggunakan NPM. Contohnya seperti di bawah nih.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm i webpack webpack-cli webpack-dev-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Tunggu 15 menit, itu kalau koneksinya kenceng (Cek WI-FE nya). Nah kalau sudah kita harus membuat konfigurasi webpack dengan nama file webpack.config.js. Tujuan file ini untuk menkonversi syntax ES6 yang ada di src/main.js ke dalam bentuk ES5 (Old Javascript).&lt;/p&gt;
+
+&lt;p&gt;Untuk menjalakan webpack yg sudah kita buat barusan, buka package.json dan edit dibagian script seperti ini.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;scripts&quot;: {
+    &quot;start&quot;: &quot;webpack-dev-server --config ./webpack.config.js --mode development&quot;
+},
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;isi dari webpack.config.js&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;module.exports = {
+    entry: [
+        './src/main.js'
+    ],
+    output: {
+        path: __dirname + '/dist',
+        publicPath: '/dist',
+        filename: 'app.bundle.js'
+    },
+    devServer: {
+        inline: true,
+        port: 8080,
+        contentBase: './'
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Lanjut… kita coba dulu testing webpacknya.. dan liat keajaiban yg terjadi.. kita buat file dengan nama main.js. kita letakkan di folder src/main.js. dan isi console.log(“It Works Guys”).
+dan &lt;strong&gt;“npm start”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/start-react-from-scratch/done.png&quot; alt=&quot;Webpack Testing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian coba ubah lagi kata-kata yg ada di console.log menjadi “Apa bisa berubah &lt;em&gt;Automatic&lt;/em&gt;” ?. Ternyata belum bisa ya teman-teman, kalau begitu repot ya mesti dijalankan berkali-kali. Apa ada cara praktisnya? pasti ada!!. Makanya kita perlu &lt;strong&gt;menginstal babel, preset react, dan set-up babel loader di webpack config&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; kegunaan babel loader untuk mereload file app.bundle.js yg kita buat tadi. supaya direload &lt;em&gt;automatic&lt;/em&gt; gitu.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install babel-core babel-loader babel-preset-env
+npm install babel-preset-react babel-preset-stage-2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;resolve: {
+        extensions: ['*', '.js', '.jsx']
+    },
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: ['babel-loader']
+            }
+        ]
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Buat file .babelrc dan &lt;strong&gt;instal “npm install react react-dom”&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+    &quot;presets&quot;: [
+        &quot;env&quot;,
+        &quot;react&quot;,
+        &quot;stage-2&quot;
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Akhirnya sudah install &lt;strong&gt;React&lt;/strong&gt; juga, saatnya kita mencoba untuk rendering dengan &lt;strong&gt;React&lt;/strong&gt;, Buat &lt;em&gt;hello world&lt;/em&gt; dulu, haha. Tinggal edit file main.js menjadi seperti ini.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import React from 'react' // ini penulisan gaya ES6
+import ReactDOM from 'react-dom' // ini ES6
+
+ReactDOM.render(
+    &amp;lt;h1&amp;gt;Hello World!&amp;lt;/h1&amp;gt;
+    document.getElementById('app')
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/start-react-from-scratch/wowreact.png&quot; alt=&quot;Hello World&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Permainannya tidak usai sampai disana, sekarang kita mainkan dengan &lt;em&gt;component&lt;/em&gt;, buat dulu &lt;em&gt;component&lt;/em&gt;nya. Posisinya letakkan didirectory “/src/components” dengan nama file Hello.jsx.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import React from 'react'
+
+export default class Hello extends React.Component {
+    constructor (){
+        super()
+        this.state = {
+            react: &quot;Welcome React&quot;
+        }
+    }
+
+    render(){
+        return (
+            &amp;lt;div&amp;gt;
+                &amp;lt;h1&amp;gt;{ this.state.react }&amp;lt;/h1&amp;gt;
+                &amp;lt;h2&amp;gt;Mudahnya belajar kalau dari scratch&amp;lt;/h2&amp;gt;
+            &amp;lt;/div&amp;gt;
+        )
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Dan jangan ketinggalan di main.js nya juga diubah ya!!&lt;/strong&gt; karena rendernya dari &lt;em&gt;component Hello.jsx&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import Hello from './components/hello'
+
+ReactDOM.render(
+    &amp;lt;Hello /&amp;gt;,
+    document.getElementById('app')
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/blog/start-react-from-scratch/selesai.png&quot; alt=&quot;JSX Component&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oke sampai disini dulu tutorial Reactnya.. Semoga tutor ini dapat membantu anda memahami konsep fundamentalnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kalau ingin bertanya silakan tinggalkan komentar dibawah yah..&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jika kalian tertarik dengan pembelajaran React ini, dan ingin lebih Advanced, Tinggalkan Judul yg diingin dibahas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Stay Curiosity, Tetap belajar dan selalu BERKARYA”.&lt;/strong&gt;&lt;/p&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang Front-End Developer. React merupakan FrameWork Terbaik Saat ini Menurut Saya.</summary></entry><entry><title type="html">Remember this day</title><link href="http://localhost:4000/personal/2018/07/23/graduation-yeah.html" rel="alternate" type="text/html" title="Remember this day" /><published>2018-07-23T01:30:00+07:00</published><updated>2018-07-23T01:30:00+07:00</updated><id>http://localhost:4000/personal/2018/07/23/graduation-yeah</id><content type="html" xml:base="http://localhost:4000/personal/2018/07/23/graduation-yeah.html">&lt;p&gt;&lt;strong&gt;GRADUATION FROM HACKTIV8&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ini kisah gue saat bisa lulus dari hacktiv8. rasanya gembira. yap gembira sangat. dikarenakan gue melalui semua itu dengan kerja keras serta usaha selama 4 bulan gue belajar di hacktiv8. yah benar sekali, gue jadi teringat saat pertama kali bergabung ke hacktiv8, jelas sekali teringat gambar sebuah gunung es tertinggi yaitu mount everest. “inilah yg akan kalian  lalui” ~kata instruktur.&lt;/p&gt;
+
+&lt;p&gt;Yah rasa senang gue terjadi karena bisa melalui semua itu. ketika berada di puncak gunung tersebut terasa begitu indah, melihat matahari terbit, merasakan udara yg segar, melihat langit yg biru serta suasana yg begitu nyaman dan tenang. namun sebelum itu, harus melewati yang namanya jalan terjal, mungkin ada hujan deras sehingga harus melewati jalan lain ( kegagalan ), tanjakan begitu banyak membuat kelelahan. merasa tidak kuat dan ingin turun dari gunung tersebut. semua itu adalah proses yg saya alami.&lt;/p&gt;
+
+&lt;p&gt;pada saat itu hanya berharap bisa dapat “mengintip” sedikit saja pemandangan indah tersebut. langkah kaki yg tadinya berjalan dengan cepat kini makin melambat and Im say “sudahi saja semua ini”. namun saya tetap melangkah dan hanya percaya belum saatnya untuk berhenti “sedikit lagi, sedikit lagi” ~ aku berkata. bahkan mata ini sudah lelah dan mulai tertutup, namun kaki tetap melangkah walaupun lelah, tetap melangkah. hingga mencapai sebuah titik yg tidak disangka-sangka, kemudian saya membuka mata. yg terjadi bukan hanya “mengintip”. semua keindahan pada puncak tersebut terlihat sangat jelas, ini semua segala pencapaian yg tidak bisa di beli dengan uang.&lt;/p&gt;
+
+&lt;p&gt;Penghargaan “honour” yg saya dapatkan, bukan untuk membanggakan diri saya. namun ada cerita, ada sesuatu yg harus di korbankan untuk itu.&lt;/p&gt;
+
+&lt;p&gt;mungkin hanya sekian kejadian yg bisa saya gambarkan melalui sebuah ilustrasi.
+semua yg saya alami itu Worth it. #bukanpromosihacktiv8.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jika ingin mencapai hal yg kalian inginkan teruslah bekerja keras dan minta doa orang tua agar tidak goyah.
+percayalah ketika kamu melangkah setapak demi setapak, maka itu akan tercapai. tutuplah mata bila perlu agar kamu mudah untuk fokus.
+lihatlah ketika kamu berada di garis finish mungkin bukan saja kamu telah menyelesaikan pertandingan tersebut dengan baik tapi juga menjadi seorang JUARA.
+kamu tercipta untuk menjadi seorang JUARA (ingat itu)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">GRADUATION FROM HACKTIV8</summary></entry><entry><title type="html">go to the last bootcamp</title><link href="http://localhost:4000/personal/2018/05/26/go-to-the-last-bootcamp.html" rel="alternate" type="text/html" title="go to the last bootcamp" /><published>2018-05-26T01:30:00+07:00</published><updated>2018-05-26T01:30:00+07:00</updated><id>http://localhost:4000/personal/2018/05/26/go-to-the-last-bootcamp</id><content type="html" xml:base="http://localhost:4000/personal/2018/05/26/go-to-the-last-bootcamp.html">&lt;p&gt;&lt;strong&gt;INTO THE LAST PHASE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi, guys.. akhirnya hari ini baru bisa menulis kembali. di sharing gue kali ini, gue akan share mengenai phase 2 yey.
+begini nih tanda kalau gue lagi seneng, karena sudah berhasil memasuki phase ke 3. haha.. oke langsung aja!&lt;/p&gt;
+
+&lt;p&gt;cerita ini dimulai setelah lulus dari phase 1 kemarin menuju phase 2. hari senin adalah kelas pertama dengan materi baru,suasana baru dan dimulai dengan perkenalan (tentang aturan penilaian dan skema alur pembelajarannya). pada phase 2 ini berlangsung proses pembelajaran selama sebulan penuh. tata penilaiannya pun berbeda dengan phase 1 kemarin yaitu penilaian terdiri dari enam tugas portofolio (gue sertain link hasil kerja gue deh. biar ga dikira boong haha)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kalau link dibawah ini sudah gak aktif lagi, itu karena gw uda diterima kerja.. haha
+karena untuk onlinenya butuh cost. hihi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Semantic Web  &lt;a href=&quot;https://semantic.thismylife.net&quot;&gt;https://semantic.thismylife.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Todo Fancy &lt;a href=&quot;https://todofancy.thismylife.net&quot;&gt;https://todofancy.thismylife.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;E-Commerce &lt;a href=&quot;https://ecommerce.thismylife.net&quot;&gt;https://ecommerce.thismylife.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Kanban &lt;a href=&quot;https://kanban.thismylife.net&quot;&gt;https://kanban.thismylife.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Blog &lt;a href=&quot;https://blog.thismylife.net&quot;&gt;https://blog.thismylife.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hacktiv Overflow (seperti forum tanya jawab bgitu) &lt;a href=&quot;https://hacktivoverflow.thismylife.net&quot;&gt;https://hacktivoverflow.thismylife.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;yah berikut enam tugas tersebut. menurut gue tugas ini susah, yaps sangat susah. karena dalam jangka waktu yg singkat harus menyelesaikan ke enam tugas tersebut dan belum lagi ada live-coding yaitu semacam tes perminggunya, hehe…&lt;/p&gt;
+
+&lt;p&gt;sekarang gue akan cerita tentang detail ke enam tugas tersebut, pada tugas tersebut misal tugas e-commerce penyelesaiannya harus membuat skema database terlebih dahulu, kemudian lanjut membuat kerangka server yg akan menjadi API service bagi client, lalu membuat client. kalau di analogikan, database/ skema database merupakan lemari baju yg artinya tempat penyimpanan semua data yg bisa diatur dengan rapi dan teratur, sedangkan kalau server sebuah wadah tempat database itu sendiri agar nantinya bisa digunakan untuk mengambil data yg dibutuhkan oleh client. oleh beberapa orang IT menyebut server sebagai proses back-end (proses/alur) dan client merupakan front-end (tampilan depan).&lt;/p&gt;
+
+&lt;p&gt;jadi alur untuk menyelesaikan setiap tugasnya seperti yg gue jelaskan tadi. kemudian tantangan berikutnya tugas tersebut harus selalu diupdate dengan teknologi baru pada setiap materi baru telah selesai diajarkan di kelas. semakin baru teknologi yg dipakai maka nilainya akan semakin tinggi.&lt;/p&gt;
+
+&lt;p&gt;minggu pertama gue berhasil menyelesaikan tugas pertama dan kedua, karena phase 1 kemarin gue lalui dengan sikap tekun dan kerja keras maka di phase 2 ini dapat gue lalui dengan mudah. oh iya hampir kelupaan di phase 2 ini ada juga tugas grup projek jadi di setiap hari minggu per grup akan di suruh buat sebuah aplikasi sederhana berteam dengan waktu 1 hari untuk menyelasaikan tantangan tersebut.&lt;/p&gt;
+
+&lt;p&gt;minggu kedua lanjut dengan tugas ketiga dan keempat, karena sesuai seperti yg gue jelasin tadi setiap tugas tersebut harus selalu di update dengan teknologi baru maka tugas pertama dan kedua tersebut harus kembali gue kerjain.. nah disini baru dimulai dengan peperangan yg sebenernya. akhirnya tugas gue menumpuk arghhh tiap hari waktu tidur pun makin berkurang jadi di phase kedua ini merupakan 2x nya phase 1, lelahnya lebih lebih lelah. belum lagi di tambah dengan grup projek per minggu,dan belum lagi mikirin buat belajar untuk live-code(ujian).&lt;/p&gt;
+
+&lt;p&gt;namun karena gue laluin semuanya dengan berjuang sangat keras, gue gak mau kalah sama waktu jadi ya gue cukup tidur per hari hanya 4 sampai 5 jam, ya mau gak mau, ya emang gue gak mau kalah sama waktu, tapi fisik atau badan gue tetep aja berkata lain, haha..&lt;/p&gt;
+
+&lt;p&gt;karena usaha yg udah gue lakuin tersebut. semuanya terbayarkan dengan nilai ujian gue, hahaha gue dapat full score ujian pertama dan ujian kedua. entah pada waktu itu dalam hati merasa bangga banget (ya mungkin karena dilalui dengan perjuangan yah, nikmat rasanya).&lt;/p&gt;
+
+&lt;p&gt;minggu ketiga dan keempat, jadi gue lalui dengan cara yg sama yaitu selalu update tugas dengan teknologi baru, project grup,kemudian ada ujian juga, tidur cuma 4 jam. hasil tersebut telah terbayarkan di the end tanggal 25 kemarin gue lulus dan masuk ke phase 3, hihi.. proses tidak akan menghianati hasil. dari 21 murid yg berhasil memasuk phase 3 hanyalah 7 orang sudah termasuk gue yah.. jadi diphase 2 ini gue bangga banget sama diri gue, gue belajar yg namanya memanfaatkan waktu sebaik mungkin, gue belajar untuk selalu tekun, gue belajar bahwa untuk mendapatkan hasil yg terbaik gue harus mengorbankan sesuatu, gue belajar untuk memperlebar kapasitas itu harus prosesnya juga gak mudah, gue tau bahwa batas gue bisa lebih kok. diphase 2 ini ibarat sebuah jeruk yg dijadikan jus itu diperas hingga tetes terakhir sampai SARI-SARINYA ITU KELUAR.
+yah sampai disini dulu sharing gue, akhirnya gue dapat menuju phase 3 dengan baik.
+JADILAH TANGGUH DAN TAK KENAL LELAH.&lt;/p&gt;
+
+&lt;p&gt;bagi yg udah membaca blog gue kali ini, semoga dapat menginspirasi yg sedang melalui phase 2 di hacktiv. tenang loo pasti bisa. do the best guys..&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;NEVER GIVE UP
+TODAY IS HARD
+TOMORROW WILL BE WORSE
+BUT THE DAY AFTER TOMORROW
+WILL BE SUNSHINE
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">INTO THE LAST PHASE</summary></entry><entry><title type="html">success story phase 1 hacktiv8</title><link href="http://localhost:4000/personal/2018/04/28/success-story-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="success story phase 1 hacktiv8" /><published>2018-04-28T00:00:00+07:00</published><updated>2018-04-28T00:00:00+07:00</updated><id>http://localhost:4000/personal/2018/04/28/success-story-phase-1-hacktiv8</id><content type="html" xml:base="http://localhost:4000/personal/2018/04/28/success-story-phase-1-hacktiv8.html">&lt;p&gt;&lt;strong&gt;MAGICARP BECOME TO GYARADOS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hari ini akhir dari phase 1 di hacktiv8. proses belajar berlangsung selama 1 bulan penuh. artinya pagi-malam begitu seterusnya. yg saya rasakan hari ini (27-04-2018) lelah, secara pikiran dan tenaga. semua usaha saya kerahkan di phase 1 ini. kalau bisa di katakan full totalitas.&lt;/p&gt;
+
+&lt;p&gt;Saya akan sedikit bercerita pengalaman saya di phase 1. Pada saat itu di hari pertama memasuki phase 1, cukup kaget awalnya. karena kondisi pembelajarannya sungguh sangat berbeda 180 dejarat dari phase 0. yg biasanya masi ada waktu kosong. sekarang TIDAK BISA lagi. sesi pembelajarannya mulai dipagi hari kemudian SESI MATERI 1 jam, kemudian di lanjutkan dengan TUGAS(ANCHOR) dengan dibagi menjadi 2 Tahap dari pagi hingga makan siang dan sore hingga malam hari. Adapun syarat pengumpulan TUGAS tersebut harus hari itu jika besok maka dianggap tidak mengerjakannya DISINI SAYA SANGAT BELAJAR ARTI DEADLINE PADA SEBUAH TUGAS.&lt;/p&gt;
+
+&lt;p&gt;Pada saat masuk karena dengan kondisi yg drasti’s sangat berbeda saya sungguh kewalahan waktu itu karena secara fisik pun tidak terbiasa. setiap minggunya diakhiri dengan live code atau bahasa anak sekolahannya UJIAN. minggu pertama ujiannya tentang Logic, di live code pertama ini saya sungguh kewalahan karena saya sadari logic saya belum begitu baik, singkat cerita di logic awal dari 3 soal hanya beres 2, okay disini saya masih semangat untuk lanjut.&lt;/p&gt;
+
+&lt;p&gt;Minggu ini pun berlalu… kemudian tiba minggu kedua dengan live code 2 soal logic dan konsep. beruntungnya konsep masi bisa saya mengerti namun karena masi belajar belum bgitu lancar dan akhirnya disini titik saya benar benar jatuh. Nilai saya sangat turun mines banget.&lt;/p&gt;
+
+&lt;p&gt;Pertama yg saya rasakan sungguh kecewa dengan diri saya sendiri, pesimis, ga akan bisa, mau quit, dll. Namun tenang di hacktiv8 ada yang namanya kelas EE (Enginerring Empaty) disini bisa dikatakan tempat untuk belajar kenapa, apa, sebab masuk ke HACKTIV, dingatkan kembali apa tujuan saya masuk ke HACKTIV. dan beruntungnya di hacktiv8 ini ada sistem penerapan yg mementor anak didiknya secara khusus. dengan metode ini yang saya rasakan instrukturnya menyemangati saya dengan cara memotivasi dan mereview kembali setiap tugas yang saya kerjakan.&lt;/p&gt;
+
+&lt;p&gt;Kemudian di hacktiv ada namanya standard nilai yg harus dipenuhi sebagai syarat untuk naik ke phase berikutnya. Pada dasarnya dalam diri saya sebetulnya juga merasa IMPOSSIBLE bisa lanjut. bisa mengejar nilai standard kelulusan tersebut. dengan berbekal rasa kepercayaan instruktur pada saya lantas saya menjadi sangat SEMANGAT yg awalnya mau quit tapi semangat itu bangkit kembali.&lt;/p&gt;
+
+&lt;p&gt;Tiba minggu ketiga saya betul betul tekun (struggle) mengulang setiap materi hingga jatah waktu tidur pun saya abaikan , IM INVENT MORE EXTRA TIME. BECAUSE IM WANT MORE EXTRA RESULT. saya percaya tidak akan ada usaha yg sia sia jika saya mengawalinya dengan KONSISTEN dan BENAR. akhir yg tidak disangka nilai saya full. ini suatu hal yg saya buktikan sendiri bahwa TEKUN itu dapat mengalahkan TALENTA karena terus diasah.&lt;/p&gt;
+
+&lt;p&gt;Tidak sampai disini, minggu keempat merupakan akhir dari phase 1 ini, dan tiba final live code. ya disini saya melakukan dengan cara yg sama yaitu mengulang ulang setiap materi yg ada MORE EXTRA TIME untuk terus belajar. rasa lelah tersebut terbayarkan dengan hasil akhir di phase 1 ini dengan hasil yg sangat memuaskan jauh diatas ekspetasi saya sendiri, yg tadinya saya cuma bisa berharap setidaknya bisa lulus aja sudah bersyukur. namun terbayarkan dengan lulus dan grade honour puji Tuhan..&lt;/p&gt;
+
+&lt;p&gt;1 hal yg akan saya selalu ingat, tentang perkataan dari kakak instruktur yg membimbing saya “KAMU PASTI BISA” thats it simple word but make STRONG. oh ya kemudian, diakhir pengumuman pun saya cukup bangga karena ada SUCCESS STORY yg saya raih dan bisa saya bagikan. Julukan yg saya dapat dari kakak instruktur saya “MAGICARP yg telah berevolusi menjadi GYARADOS” (itu karakter pokemon) haha…keren.. anw Thank you so much kak.&lt;/p&gt;
+
+&lt;p&gt;Sampai disini sharing saya di phase 1 ini dan akan lanjut ke phase 2 yg telah dinanti nantikan. 
+pesan saya zona nyaman memang tidak mengEnakan tapi itu membentuk karakter saya. dan jangan pernah PUAS dengan hanya sampai disini.&lt;/p&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">MAGICARP BECOME TO GYARADOS</summary></entry><entry><title type="html">Akhir phase 0 dan memasuki phase 1 hacktiv8</title><link href="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="Akhir phase 0 dan memasuki phase 1 hacktiv8" /><published>2018-04-01T02:45:00+07:00</published><updated>2018-04-01T02:45:00+07:00</updated><id>http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8</id><content type="html" xml:base="http://localhost:4000/personal/2018/04/01/akhir-phase-0-memasuki-phase-1-hacktiv8.html">&lt;p&gt;Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tipe Data dan Variabel&lt;/strong&gt;&lt;/p&gt;
 
@@ -7,8 +268,11 @@ Number
 Boolean
 Array
 Object Literal
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.</summary></entry><entry><title type="html">Instalation Jekyll on Ubuntu 16.04</title><link href="http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html" rel="alternate" type="text/html" title="Instalation Jekyll on Ubuntu 16.04" /><published>2018-02-23T18:18:23+07:00</published><updated>2018-02-23T18:18:23+07:00</updated><id>http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html">&lt;p&gt;I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Hacktiv8 adalah kampus tempat belajar yg baik bagi pemula yang ingin mengenal lebih dalam mengenai programming, ya tepat hari ini sudah 6 minggu saya lalui. sistem pembelajaran di hacktiv8 dibagi menjadi tiga tahap, ada phase 0 selama 6 minggu, phase 1, 2 dan 3 selama 12 minggu. besok adalah hari pertama saya memasuki phase 1 tidak terasa sudah banyak belajar di phase 0 yaitu Algoritma/ Pseudecode. hari ini saya ingin sekedar sharing beberapa yg sudah saya lalui di phase 0 kemarin.</summary></entry><entry><title type="html">Instalation Jekyll on Ubuntu 16.04</title><link href="http://localhost:4000/personal/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html" rel="alternate" type="text/html" title="Instalation Jekyll on Ubuntu 16.04" /><published>2018-02-23T18:18:23+07:00</published><updated>2018-02-23T18:18:23+07:00</updated><id>http://localhost:4000/personal/2018/02/23/instalation-jekyll-on-ubuntu-16.04</id><content type="html" xml:base="http://localhost:4000/personal/2018/02/23/instalation-jekyll-on-ubuntu-16.04.html">&lt;p&gt;I am currently challenged to create my own personal blog by choosing one of the cms of which there is wordpress, blogspot, and github pages. I chose github pages as my personal blog with my system operation ubuntu 16.04. 
 the thing I need to prepare is to install Ruby, RubyGems and Jekyll via terminal:&lt;/p&gt;
+
+&lt;!-- adding image --&gt;
+&lt;!-- ![My helpful screenshot](http://localhost:4000/images/blog/jekyll-logo.png) --&gt;
 
 &lt;p&gt;&lt;strong&gt;Instalation Ruby, RubyGems, Jekyll, Check Version&lt;/strong&gt;&lt;/p&gt;
 
