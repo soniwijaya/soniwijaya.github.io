@@ -79,7 +79,7 @@ layout: default
             <section class="pt-page" data-id="blog">
               <div class="section-inner custom-page-content">
                 <div class="page-header color-1">
-                  <h2>Personal</h2>
+                  <h2>Blog</h2>
                 </div>
                 <div class="page-content">
 
@@ -154,6 +154,46 @@ layout: default
               </div>
             </section>
             <!-- /React Subpage -->
+
+            <!-- HTML & CSS Subpage -->
+            <section class="pt-page" data-id="htmlcss">
+              <div class="section-inner custom-page-content">
+                <div class="page-header color-1">
+                  <h2>HTML & CSS</h2>
+                </div>
+                <div class="page-content">
+
+                  <!-- HTML & CSS Posts Grid -->
+                  <div class="blog-masonry two-columns">
+
+                    <!-- HTML & CSS Post 1 -->
+                    {% for htmlcss in site.categories['htmlcss'] %}
+                    <div class="item">
+                      <div class="blog-card">
+                        <div class="media-block">
+                          <a href="{{ site.baseurl }}{{ htmlcss.url }}">
+                            <img class="post-image img-responsive" src="{{ site.baseurl }}/{{ htmlcss.header-img }}" alt="{{ htmlcss.title }}"/>
+                            <div class="mask"></div>
+                            <div class="post-date"><span class="day">{{ htmlcss.date | date: "%d" }}</span><span class="month">{{ htmlcss.date | date: "%b" }}</span><span class="year">{{ htmlcss.date | date: "%Y" }}</span></div>
+                          </a>
+                        </div>
+                        <div class="post-info">
+                          <ul class="category">
+                            <li><a>{{ htmlcss.categories }}</a></li>
+                          </ul>
+                          <a href="{{ site.baseurl }}{{ htmlcss.url }}"><h4 class="blog-item-title">{{ htmlcss.title }}</h4></a>
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                    <!-- End of HTML & CSS Post 1 -->
+
+                  </div>
+                  <!-- HTML & CSS Posts Grid -->
+                </div>
+              </div>
+            </section>
+            <!-- /HTML & CSS Subpage -->
 
           </div>
         </div>

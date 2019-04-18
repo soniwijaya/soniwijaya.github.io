@@ -18,11 +18,11 @@
 
 
 
-<meta property="article:published_time" content="2018-08-17T17:32:00+07:00">
+<meta property="article:published_time" content="2018-08-17T10:32:00+00:00">
 <meta property="article:author" content="soniwijaya">
 
 
-<meta property="og:url" content="http://localhost:4000/react/2018/08/17/start-react-from-scratch.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch.html" />
 
 <meta itemprop="keywords" content="react" />
 
@@ -60,10 +60,13 @@
 					<a class="pt-trigger" href="/#home">Home</a>
 				  </li>
 				  <li>
-					<a class="pt-trigger" href="/#blog">Personal</a>
+					<a class="pt-trigger" href="/#blog">Blog</a>
 					</li>
 					<li>
-						<a class="pt-trigger" href="/#react">React ( Javascript )</a>
+						<a class="pt-trigger" href="/#react">React</a>
+					</li>
+					<li>
+						<a class="pt-trigger" href="/#htmlcss">HTML & CSS</a>
 					</li>
 				</ul>
 				<!-- /Main menu -->
@@ -123,7 +126,7 @@
 Webpack - buddle your styles, assets, scripts. https://webpack.js.org/
 </code></pre></div></div>
 
-<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/babel.png" alt="Babel" /></p>
+<p><img src="http://0.0.0.0:4000/images/blog/start-react-from-scratch/babel.png" alt="Babel" /></p>
 
 <p>Sekilas mengenai pemahamannya. Untuk menjalankan Javascript ini, kita memerlukan yang namanya sebuah <strong>Enviroment</strong> agar Javascript ini bisa dijalankan <em>compiler</em>. Enviroment tersebut adalah <strong>Node.js</strong>. cara menginstalnya tidaklah susah saya mengunakan <strong>PACKAGE MANAGER</strong> dokumentasi lengkapnya ada disini - https://nodejs.org/en/download/package-manager/ kebetulan saya memilih memakai Node.js Versi 8 dengan base yg berjalan di <strong>OS Ubuntu 16.04 LTS</strong>.</p>
 
@@ -142,7 +145,7 @@ npm init
 
 <p>Dibawah ini adalah tampilan dari <strong>“npm init”</strong>. ditampilkan beberapa pertanyaan mengenai bundle atau asset yang perlu dibuat dalam sebuah directory. silakan diisi seperti dibawah ini. setelah selesai maka akan meng - generate suatu file bernama <strong>package.json</strong>.</p>
 
-<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/npminit.png" alt="NPM" /></p>
+<p><img src="http://0.0.0.0:4000/images/blog/start-react-from-scratch/npminit.png" alt="NPM" /></p>
 
 <p>Kemudian buatlah sebuah file index.html sesuai standard <strong>W3C Candidate Recommendation: HTML 5.1</strong>, standard apa lagi ini? untuk lebih lengkapnya kunjungi saja link dibawah tersebut. Kegunaan file index.html nantinya untuk meng-render hasil component dari <strong>React</strong>.</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.w3.org/TR/2017/REC-html51-20171003/introduction.html#introduction 
@@ -199,7 +202,7 @@ npm init
 <p>Lanjut… kita coba dulu testing webpacknya.. dan liat keajaiban yg terjadi.. kita buat file dengan nama main.js. kita letakkan di folder src/main.js. dan isi console.log(“It Works Guys”).
 dan <strong>“npm start”</strong>.</p>
 
-<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/done.png" alt="Webpack Testing" /></p>
+<p><img src="http://0.0.0.0:4000/images/blog/start-react-from-scratch/done.png" alt="Webpack Testing" /></p>
 
 <p>Kemudian coba ubah lagi kata-kata yg ada di console.log menjadi “Apa bisa berubah <em>Automatic</em>” ?. Ternyata belum bisa ya teman-teman, kalau begitu repot ya mesti dijalankan berkali-kali. Apa ada cara praktisnya? pasti ada!!. Makanya kita perlu <strong>menginstal babel, preset react, dan set-up babel loader di webpack config</strong></p>
 
@@ -242,7 +245,7 @@ ReactDOM.render(
 )
 </code></pre></div></div>
 
-<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/wowreact.png" alt="Hello World" /></p>
+<p><img src="http://0.0.0.0:4000/images/blog/start-react-from-scratch/wowreact.png" alt="Hello World" /></p>
 
 <p>Permainannya tidak usai sampai disana, sekarang kita mainkan dengan <em>component</em>, buat dulu <em>component</em>nya. Posisinya letakkan didirectory “/src/components” dengan nama file Hello.jsx.</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import React from 'react'
@@ -275,7 +278,7 @@ ReactDOM.render(
 )
 </code></pre></div></div>
 
-<p><img src="http://localhost:4000/images/blog/start-react-from-scratch/selesai.png" alt="JSX Component" /></p>
+<p><img src="http://0.0.0.0:4000/images/blog/start-react-from-scratch/selesai.png" alt="JSX Component" /></p>
 
 <p>Oke sampai disini dulu tutorial Reactnya.. Semoga tutor ini dapat membantu anda memahami konsep fundamentalnya.</p>
 
