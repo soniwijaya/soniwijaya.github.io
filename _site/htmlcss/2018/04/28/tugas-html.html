@@ -4,15 +4,15 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-	<title> Tugas HTML </title>
+	<title> Tugas CSS </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="Laman Web Pertamaku">
+	<meta name="description" content="Menghias Laman HTML dengan CSS">
 
 
-<meta property="og:site_name" content="Tugas HTML">
-<meta property="og:title" content="Tugas HTML">
+<meta property="og:site_name" content="Tugas CSS">
+<meta property="og:title" content="Tugas CSS">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Laman Web Pertamaku
+<meta property="og:description" content="Menghias Laman HTML dengan CSS
 
 "/>
 
@@ -96,59 +96,172 @@
             <div class="page-content">
               <!-- Blog Entry Content -->
               <div class="blog-post-main-image">
-                <img class="post-image img-responsive" src="/images/blog/pengenalan-html-css-basic/html-css.jpg" alt="Tugas HTML" width="932"/>
+                <img class="post-image img-responsive" src="/images/blog/pengenalan-html-css-basic/html-css.jpg" alt="Tugas CSS" width="932"/>
               </div>
 
               <div class="blog-post-content">
-                <h1>Tugas HTML</h1>
+                <h1>Tugas CSS</h1>
                 <div class="entry-meta">
                   <span class="date"><a href="#"><i class="fa fa-fw fa-clock-o"></i> 28 April 2018</a></span>
                   <span class="divider">|</span>
                   <span class="autor"><a href="#"><i class="fa fa-fw fa-user"></i> Soni Wijaya</a></span>
                 </div>
 
-				      <h1 id="laman-web-pertamaku">Laman Web Pertamaku</h1>
+				      <h1 id="menghias-laman-html-dengan-css">Menghias Laman HTML dengan CSS</h1>
 
 <h2 id="objectives">Objectives</h2>
 
-<p>Setelah mempelajari dasar-dasar HTML, kamu ditantang untuk membuat sebuah laman html sendiri menggunakan <em>tags</em> yang telah kamu pelajari. Laman pertama ini akan digunakan untuk tugas-tugas selanjutnya, pastikan kamu mengerjakannya dengan baik.</p>
+<p>Dengan menggunakan CSS kamu dapat menghias halaman HTML. Pada latihan kali ini, kamu telah diberikan file CSS. Kamu diminta untuk membuat id atau class yang menjadi selector yang tepat di HTML!</p>
 
 <h2 id="directions">Directions</h2>
 
-<h3 id="1-membuat-file-html---index-page">1. Membuat File HTML - Index Page</h3>
+<h3 id="1-membuat-file-html">1. Membuat File HTML</h3>
 
-<p>Buatlah sebuah file HTML baru dengan nama <strong>index</strong> dengan format <strong>html</strong>.</p>
+<p>Buatlah sebuah file HTML bernama <em>index.html</em> di sebuah folder bernama <em>project-css-styling</em>.
+Gunakan kode yang sudah disiapkan berikut:</p>
 
-<ul>
-  <li><a href="https://www.quora.com/Why-is-the-default-html-file-called-index-html">Kenapa harus index.html ?</a></li>
-</ul>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://fonts.googleapis.com/css?family=Slabo+27px"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"style.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"separator"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1&gt;</span>1. Selector dan Styling Sederhana<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya adalah Box Berwarna Maroon<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya adalah Box Berwarna Dark Blue<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya adalah Box Berwarna Salem<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"separator"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1&gt;</span>2. Selector Lebih Dari Satu<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya adalah Box Red berukuran 100<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya juga Box Red tapi ukurannya 200<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya adalah Box Blue berukuran 200<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div&gt;</span>Saya juga berukuran 200 tapi warnanya Green<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"separator"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h1&gt;</span>3. Selector Melalui Parent<span class="nt">&lt;/h1&gt;</span>
+      <span class="nt">&lt;div&gt;</span>
+        <span class="nt">&lt;div&gt;</span>Desain saya diatur oleh Parent Saya<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div&gt;</span>Desain saya diatur oleh Parent Saya<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div&gt;</span>Desain saya diatur oleh Parent Saya, tapi saya punya warna khusus, yaitu Gold!<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
 
-<p>Buatlah <em>index.html</em> tersebut dengan tampilan seperti gambar di bawah ini:</p>
+<h3 id="2-membuat-file-css">2. Membuat File CSS</h3>
 
-<p><img src="http://0.0.0.0:4000/images/blog/tugas-html/page1.png" alt="Referensi Tugas" /></p>
+<p>Buatlah sebuah file CSS bernama <em>style.css</em> pada folder yang sama dengan file <em>index.html</em> yang telah di hubungkan pada file html tersebut.</p>
 
-<p>Berikan sebuah link untuk masuk ke halaman Form Sign Up! (diarahkan ke <em>form.html</em>)</p>
+<blockquote>
+  <p><code class="highlighter-rouge">&lt;link href="style.css" rel="stylesheet" type="text/css"&gt;</code></p>
+</blockquote>
 
-<h3 id="2-membuat-file-html-ke-2---form-page">2. Membuat File HTML ke 2 - Form Page</h3>
+<p>Kamu <strong>wajib</strong> menggunakan kode CSS dibawah ini dan tidak mengubah apapun:</p>
 
-<p>Buatlah file HTML kedua yang berisikan form dengan tampilan seperti gambar di bawah ini:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Style Default */</span>
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">'Slabo 27px'</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p><img src="http://0.0.0.0:4000/images/blog/tugas-html/page2.png" alt="Referensi Tugas" /></p>
+<span class="nt">h1</span> <span class="p">{</span>
+  <span class="nl">border-bottom</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="n">rgba</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">.1</span><span class="p">);</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p>Apabila form di submit, browser harus diarahkan untuk membuka <em>welcome.html</em>.</p>
+<span class="nc">.separator</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+  <span class="nl">overflow</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+<span class="p">}</span>
 
-<h3 id="3-membuat-file-html-ke-3---welcome-page">3. Membuat File HTML ke 3 - Welcome Page</h3>
+<span class="c">/* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */</span>
 
-<p>Buatlah file HTML ketiga bernama <em>welcome.html</em> dengan tampilan seperti gambar di bawah ini:</p>
+<span class="nc">.box-100</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">15pt</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p><img src="http://0.0.0.0:4000/images/blog/tugas-html/page3.png" alt="Referensi Tugas" /></p>
+<span class="nc">.box-200</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">15pt</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
 
-<h3 id="4-hasil-akhir">4. Hasil Akhir</h3>
+<span class="nf">#maroon-box</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#96281B</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p>Apabila seluruh tautan/link telah berfungsi dengan baik, harusnya web telah bekerja seperti berikut,
-jika dibuka dari <em>index.html</em>.</p>
+<span class="nf">#dark-blue-box</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#4B77BE</span><span class="p">;</span>
+<span class="p">}</span>
 
-<p><img src="http://0.0.0.0:4000/images/blog/tugas-html/flow.gif" alt="Referensi Tugas" /></p>
+<span class="nf">#salem-box</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#1E824C</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.red-background</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#C0392B</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.blue-background</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#446CB3</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.green-background</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#26A65B</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.box-list</span> <span class="nt">div</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+  <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">15pt</span><span class="p">;</span>
+  <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#353535</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#gold-box</span> <span class="p">{</span>
+  <span class="nl">border-radius</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="m">#353535</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#F9BF3B</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="3-menambahkan-class-dan-id-yang-sesuai-di-html">3. Menambahkan Class dan Id yang sesuai di HTML!</h3>
+
+<p>CSS telah siap digunakan. Sekarang kamu harus menambahkan <code class="highlighter-rouge">class</code> atau <code class="highlighter-rouge">id</code> pada HTML element untuk memberikan desain kepada halaman HTML kita. Hasil akhir dari HTML yang dibuat harus tampil seperti berikut:</p>
+
+<p><img src="http://0.0.0.0:4000/images/blog/tugas-html/flow.gif" alt="Contoh Hasil Akhir CSS Styling" /></p>
+
+<blockquote>
+  <p><strong>Syntax Penting</strong></p>
+  <ul>
+    <li>class</li>
+    <li>id</li>
+  </ul>
+</blockquote>
+
 
 
               </div>
