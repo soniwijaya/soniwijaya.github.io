@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2019-05-12T12:43:29+00:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Soni Wijaya</title><entry><title type="html">Start React from Scratch - Fundamental React.js</title><link href="http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch.html" rel="alternate" type="text/html" title="Start React from Scratch - Fundamental React.js" /><published>2018-08-17T10:32:00+00:00</published><updated>2018-08-17T10:32:00+00:00</updated><id>http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch</id><content type="html" xml:base="http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch.html">&lt;p&gt;Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang &lt;em&gt;Front-End Developer&lt;/em&gt;. &lt;strong&gt;React&lt;/strong&gt; merupakan FrameWork Terbaik Saat ini Menurut Saya.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2019-05-20T07:04:03+00:00</updated><id>http://0.0.0.0:4000/</id><title type="html">Soni Wijaya</title><entry><title type="html">Start React from Scratch - Fundamental React.js</title><link href="http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch.html" rel="alternate" type="text/html" title="Start React from Scratch - Fundamental React.js" /><published>2018-08-17T10:32:00+00:00</published><updated>2018-08-17T10:32:00+00:00</updated><id>http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch</id><content type="html" xml:base="http://0.0.0.0:4000/react/2018/08/17/start-react-from-scratch.html">&lt;p&gt;Tutor ini saya buat karena semata-mata ingin berbagi, untuk teman-teman saya yg ingin memulai karirnya di bidang &lt;em&gt;Front-End Developer&lt;/em&gt;. &lt;strong&gt;React&lt;/strong&gt; merupakan FrameWork Terbaik Saat ini Menurut Saya.&lt;/p&gt;
 
 &lt;p&gt;Jika ingin memulai belajar FrameWork Terpopuler saat ini yaitu &lt;strong&gt;React&lt;/strong&gt; maka &lt;em&gt;Javascript&lt;/em&gt; adalah base code yang paling dasar dan wajib harus kamu ketahui. Dasar javascript yang seperti apa sih? hmm.. sebelum masuk ke &lt;em&gt;Javascript&lt;/em&gt; adakah yang tau apa itu Ecmascript? &lt;strong&gt;Javascript === Ecmascript.&lt;/strong&gt;&lt;/p&gt;
 
@@ -238,46 +238,73 @@ TODAY IS HARD
 TOMORROW WILL BE WORSE
 BUT THE DAY AFTER TOMORROW
 WILL BE SUNSHINE
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">INTO THE LAST PHASE</summary></entry><entry><title type="html">Tugas CSS</title><link href="http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html.html" rel="alternate" type="text/html" title="Tugas CSS" /><published>2018-04-28T10:32:00+00:00</published><updated>2018-04-28T10:32:00+00:00</updated><id>http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html</id><content type="html" xml:base="http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html.html">&lt;h1 id=&quot;menghias-laman-html-dengan-css&quot;&gt;Menghias Laman HTML dengan CSS&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">INTO THE LAST PHASE</summary></entry><entry><title type="html">Tugas HTML dan CSS</title><link href="http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html.html" rel="alternate" type="text/html" title="Tugas HTML dan CSS" /><published>2018-04-28T10:32:00+00:00</published><updated>2018-04-28T10:32:00+00:00</updated><id>http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html</id><content type="html" xml:base="http://0.0.0.0:4000/htmlcss/2018/04/28/tugas-html.html">&lt;h1 id=&quot;menghias-laman-html-dengan-css-layouting&quot;&gt;Menghias Laman HTML dengan CSS Layouting&lt;/h1&gt;
 
 &lt;h2 id=&quot;objectives&quot;&gt;Objectives&lt;/h2&gt;
 
-&lt;p&gt;Dengan menggunakan CSS kamu dapat menghias halaman HTML. Pada latihan kali ini, kamu telah diberikan file CSS. Kamu diminta untuk membuat id atau class yang menjadi selector yang tepat di HTML!&lt;/p&gt;
+&lt;p&gt;Dengan menggunakan CSS kamu dapat membuat layout serta menghias halaman HTML yang sebelumnya sudah dibuat menjadi lebih bagus. Kali ini kamu ditantang untuk membuat layout web blog sederhana!&lt;/p&gt;
 
 &lt;h2 id=&quot;directions&quot;&gt;Directions&lt;/h2&gt;
 
 &lt;h3 id=&quot;1-membuat-file-html&quot;&gt;1. Membuat File HTML&lt;/h3&gt;
 
-&lt;p&gt;Buatlah sebuah file HTML bernama &lt;em&gt;index.html&lt;/em&gt; di sebuah folder bernama &lt;em&gt;project-css-styling&lt;/em&gt;.
+&lt;p&gt;Buatlah sebuah file HTML bernama &lt;em&gt;index.html&lt;/em&gt; di sebuah folder bernama &lt;em&gt;project-css-layouting&lt;/em&gt;.
 Gunakan kode yang sudah disiapkan berikut:&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/css?family=Slabo+27px&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;style.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/css?family=Slabo+27px&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;separator&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;1. Selector dan Styling Sederhana&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya adalah Box Berwarna Maroon&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya adalah Box Berwarna Dark Blue&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya adalah Box Berwarna Salem&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;separator&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;2. Selector Lebih Dari Satu&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya adalah Box Red berukuran 100&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya juga Box Red tapi ukurannya 200&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya adalah Box Blue berukuran 200&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Saya juga berukuran 200 tapi warnanya Green&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;separator&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;3. Selector Melalui Parent&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Desain saya diatur oleh Parent Saya&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Desain saya diatur oleh Parent Saya&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;Desain saya diatur oleh Parent Saya, tapi saya punya warna khusus, yaitu Gold!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;header&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;img/sample-logo.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;200px&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;li&amp;gt;&lt;/span&gt;Home&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;li&amp;gt;&lt;/span&gt;About&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;li&amp;gt;&lt;/span&gt;Contact&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;section&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Featured Posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;article-list&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Lorem Post 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Lorem Post 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Lorem Post 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Lorem Post 4&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Lorem Post 5&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/section&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h5&amp;gt;&lt;/span&gt;copyright &lt;span class=&quot;ni&quot;&gt;&amp;amp;copy;&lt;/span&gt; 2016 by HACKFOX&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h5&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -290,108 +317,37 @@ Gunakan kode yang sudah disiapkan berikut:&lt;/p&gt;
   &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Kamu &lt;strong&gt;wajib&lt;/strong&gt; menggunakan kode CSS dibawah ini dan tidak mengubah apapun:&lt;/p&gt;
+&lt;h3 id=&quot;3-menyiapkan-aset-gambar&quot;&gt;3. Menyiapkan Aset Gambar&lt;/h3&gt;
 
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;/* Style Default */&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Slabo 27px'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;Buatlah sebuah folder di project tersebut dengan nama &lt;em&gt;img&lt;/em&gt;, dimana kita akan meletakkan aset gambar kita disana. Aset gambar bisa kamu save as dari gambar di bawah ini:&lt;/p&gt;
 
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;http://0.0.0.0:4000/images/blog/tugas-html/sample-logo.png&quot; alt=&quot;Anchor CSS Layout 1&quot; /&gt;
+&lt;img src=&quot;http://0.0.0.0:4000/images/blog/tugas-html/sample-pattern.png&quot; alt=&quot;Anchor CSS Layout 2&quot; /&gt;&lt;/p&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.separator&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;4-membuat-layout-dan-desain&quot;&gt;4. Membuat Layout dan Desain&lt;/h3&gt;
 
-&lt;span class=&quot;c&quot;&gt;/* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */&lt;/span&gt;
+&lt;p&gt;Sesuaikan kode html yang telah terhubung dengan css di atas, buatlah halaman HTML menjadi lebih bagus dan sesuai dengan tampilan di bawah ini!&lt;/p&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.box-100&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15pt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;&lt;img src=&quot;http://0.0.0.0:4000/images/blog/tugas-html/contoh-css-layouting.gif&quot; alt=&quot;Contoh Hasil Akhir CSS Layouting&quot; /&gt;&lt;/p&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.box-200&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15pt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;5-pengumpulan&quot;&gt;5. Pengumpulan&lt;/h3&gt;
 
-&lt;span class=&quot;nf&quot;&gt;#maroon-box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#96281B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;#dark-blue-box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#4B77BE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;#salem-box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#1E824C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.red-background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#C0392B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.blue-background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#446CB3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.green-background&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#26A65B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.box-list&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15pt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#353535&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFFFFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nf&quot;&gt;#gold-box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;border-radius&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#353535&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#F9BF3B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;3-menambahkan-class-dan-id-yang-sesuai-di-html&quot;&gt;3. Menambahkan Class dan Id yang sesuai di HTML!&lt;/h3&gt;
-
-&lt;p&gt;CSS telah siap digunakan. Sekarang kamu harus menambahkan &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; atau &lt;code class=&quot;highlighter-rouge&quot;&gt;id&lt;/code&gt; pada HTML element untuk memberikan desain kepada halaman HTML kita. Hasil akhir dari HTML yang dibuat harus tampil seperti berikut:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://0.0.0.0:4000/images/blog/tugas-html/flow.gif&quot; alt=&quot;Contoh Hasil Akhir CSS Styling&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Upload tugas project dalam bentuk zip dari folder &lt;em&gt;project-css-styling&lt;/em&gt;! &lt;strong&gt;Perhatian&lt;/strong&gt; Hanya gunakan zip, jangan upload file isi nya satu per satu ataupun dengan rar, 7z, ataupun kompresi lainnya.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Syntax Penting&lt;/strong&gt;&lt;/p&gt;
   &lt;ul&gt;
-    &lt;li&gt;class&lt;/li&gt;
-    &lt;li&gt;id&lt;/li&gt;
+    &lt;li&gt;color&lt;/li&gt;
+    &lt;li&gt;font-size&lt;/li&gt;
+    &lt;li&gt;font-family&lt;/li&gt;
+    &lt;li&gt;background&lt;/li&gt;
+    &lt;li&gt;font-weight&lt;/li&gt;
+    &lt;li&gt;text-align&lt;/li&gt;
+    &lt;li&gt;text-decoration&lt;/li&gt;
+    &lt;li&gt;position&lt;/li&gt;
+    &lt;li&gt;cursor&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/blockquote&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Menghias Laman HTML dengan CSS</summary></entry><entry><title type="html">success story phase 1 hacktiv8</title><link href="http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="success story phase 1 hacktiv8" /><published>2018-04-27T17:00:00+00:00</published><updated>2018-04-27T17:00:00+00:00</updated><id>http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8</id><content type="html" xml:base="http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8.html">&lt;p&gt;&lt;strong&gt;MAGICARP BECOME TO GYARADOS&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>soniwijaya</name><email>soniwijaya59@yahoo.co.id</email></author><summary type="html">Menghias Laman HTML dengan CSS Layouting</summary></entry><entry><title type="html">success story phase 1 hacktiv8</title><link href="http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8.html" rel="alternate" type="text/html" title="success story phase 1 hacktiv8" /><published>2018-04-27T17:00:00+00:00</published><updated>2018-04-27T17:00:00+00:00</updated><id>http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8</id><content type="html" xml:base="http://0.0.0.0:4000/personal/2018/04/27/success-story-phase-1-hacktiv8.html">&lt;p&gt;&lt;strong&gt;MAGICARP BECOME TO GYARADOS&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Hari ini akhir dari phase 1 di hacktiv8. proses belajar berlangsung selama 1 bulan penuh. artinya pagi-malam begitu seterusnya. yg saya rasakan hari ini (27-04-2018) lelah, secara pikiran dan tenaga. semua usaha saya kerahkan di phase 1 ini. kalau bisa di katakan full totalitas.&lt;/p&gt;
 
